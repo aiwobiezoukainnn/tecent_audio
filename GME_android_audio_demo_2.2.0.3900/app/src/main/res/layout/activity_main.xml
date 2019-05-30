@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="8dp"
+                android:text="Test"/>
+            <Switch
+                android:id="@+id/switch_TestEnv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="AutoPause"/>
+            <Switch
+                android:id="@+id/switch_AutoPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/text_sdk_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="8dp"
+                android:text="Version:2.1.2.913.Local"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="8dp"
+                android:text="  Key:"/>
+            <EditText
+                android:id="@+id/edit_app_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="1cfbfd2a1a03a53e" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appid:"/>
+            <EditText
+                android:id="@+id/edit_app_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1400089356" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OpenID:"/>
+            <EditText
+                android:id="@+id/edit_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28609" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/btn_Init"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Init"
+                android:layout_weight="1"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_Uninit"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Uninit"
+                android:layout_weight="1"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_realtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RealTime" />
+            <Button
+                android:id="@+id/btn_ptt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PTT" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container">
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

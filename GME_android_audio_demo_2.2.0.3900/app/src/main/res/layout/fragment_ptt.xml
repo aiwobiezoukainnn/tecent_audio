@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="待发送音频"/>
+
+        <EditText
+            android:id="@+id/edit_audiofile_to_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="下载链接"/>
+
+        <EditText
+            android:id="@+id/edit_download_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="待播放音频"/>
+
+        <EditText
+            android:id="@+id/edit_audiofile_to_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="待转换文本"/>
+
+        <EditText
+            android:id="@+id/edit_audio_to_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="文件时长"/>
+
+        <EditText
+            android:id="@+id/edit_audio_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_audio_record"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="录制"/>
+
+        <Button
+            android:id="@+id/button_audio_upload"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="上传"/>
+
+        <Button
+            android:id="@+id/button_audio_dowload"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="下载"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_audio_play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="播放"/>
+
+        <Button
+            android:id="@+id/button_audio_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="转文本"/>
+
+        <Button
+            android:id="@+id/button_audio_length"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="获取时长"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_audio_clean"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="清空"/>
+
+
+        <Button
+            android:id="@+id/button_audio_playLocal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="播本地"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_audio_streaming"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="流式"/>
+        <Button
+            android:id="@+id/button_audio_streaming_finish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="停止"/>
+
+        <Button
+            android:id="@+id/button_audio_streaming_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

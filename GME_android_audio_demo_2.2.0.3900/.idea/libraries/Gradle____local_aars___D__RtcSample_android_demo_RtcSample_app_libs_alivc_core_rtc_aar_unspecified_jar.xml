@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:D.\RtcSample_android_demo\RtcSample\app\libs\alivc-core-rtc.aar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0641de269d1a6bb69b9f0d1c26b87dd/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0641de269d1a6bb69b9f0d1c26b87dd/jars/libs/AlivcVideoEncoder_v1.1.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0641de269d1a6bb69b9f0d1c26b87dd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
